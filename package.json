@@ -1,4 +1,7 @@
 {
+  "name": "less-translated",
+  "version": "0.1.0",
+  "description": "translated docs for Less",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -7,6 +10,23 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6"
-  }
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "nuxt": "3.0.0-rc.6",
+    "typescript": "^4.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchunhui/less-translated.git"
+  },
+  "author": "fuchunhui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuchunhui/less-translated/issues"
+  },
+  "homepage": "https://github.com/fuchunhui/less-translated#readme"
 }

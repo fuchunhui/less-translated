@@ -6,3 +6,6 @@ node_modules
 .output
 .env
 dist
+
+# 实验阶段，暂使用原始方式
+eslint.config.js
